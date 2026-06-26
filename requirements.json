@@ -1,0 +1,50 @@
+{
+  "project_name": "نظام إدارة أحداث وقاعات (الإقامة، الوجبات، الأنشطة)",
+  "project_type": "booking_system",
+  "color_palette": "emerald-600 and teal-500",
+  "modules": [
+    "Events",
+    "Rooms",
+    "Accommodations",
+    "Meals"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_events",
+    "create_event",
+    "list_rooms",
+    "create_room",
+    "list_accommodations",
+    "create_accommodation",
+    "list_meals",
+    "create_meal"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login"
+    ],
+    "user": [
+      "index",
+      "list_events",
+      "list_rooms",
+      "list_accommodations",
+      "list_meals"
+    ],
+    "admin": [
+      "index",
+      "login",
+      "register",
+      "create_event",
+      "create_room",
+      "create_accommodation",
+      "create_meal",
+      "list_events",
+      "list_rooms",
+      "list_accommodations",
+      "list_meals"
+    ]
+  }
+}
