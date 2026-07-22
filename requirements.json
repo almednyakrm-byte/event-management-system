@@ -1,0 +1,45 @@
+{
+  "project_name": "تطبيق إدارةvents وفعاليات مع إدارة دعوات وتذاكر",
+  "project_type": "event_management",
+  "color_palette": "orange-500 and gray-200",
+  "modules": [
+    "events",
+    "invitations",
+    "tickets"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_events",
+    "create_event",
+    "event_details",
+    "invitation_list",
+    "ticket_list"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register",
+      "list_events"
+    ],
+    "user": [
+      "index",
+      "list_events",
+      "event_details",
+      "invitation_list",
+      "ticket_list",
+      "create_event"
+    ],
+    "admin": [
+      "index",
+      "list_events",
+      "event_details",
+      "invitation_list",
+      "ticket_list",
+      "create_event",
+      "user_management"
+    ]
+  }
+}
